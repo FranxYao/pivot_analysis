@@ -35,7 +35,7 @@ python main.py --dataset=yelp --pivot_thres_cnt=1 --prec_thres=0.5 --recl_thres=
 
 and the outputs would something like:
 
-```bash
+```
 ...
 Pivot word discovery:
 class 0, 4929 pivots, pivot recall: 0.3348
@@ -51,7 +51,7 @@ output stored in
 ```
 
 Sample outputs 
-```bash
+```
 yelp_0.pivot: word/ precision/ recall (negative sentiment)
 sadly			0.9924	0.0002
 mistaken			0.7778	0.0000
