@@ -9,7 +9,7 @@ In this paper, we discuss the observation that in many text style transfer datas
 
 How can quantitatively identify, measure, and visualize the influence of these words? We propose three algorithms for this purpose: the **pivot word discovery, the pivot classifier**, and **the precision-recall histogram** algorithms. They are all implemented in this repo.
 
-We gather 8 major style-transfer dataset, standarlize them (so in your future work you could use them from this repo with minimal modification :), and analyze the pivot effects in these dataset. All analytical results from the paper can be reproduced and find out in the `outputs/` folder. 
+We gather 8 major style-transfer dataset, standarlize them (so in your future work you could **use them from this repo with minimal modification** :), and analyze the pivot effects in these dataset. All analytical results from the paper can be reproduced and find out in the `outputs/` folder. 
 
 
 ## Download the data 
