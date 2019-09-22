@@ -2,12 +2,15 @@
 
 The implementation of paper Yao fu, Hao Zhou, Jiaze Chen, and Lei Li, _Rethinking Text Attribute Transfer: A Lexical Analysis_. INLG 2019. 
 
-The **pivot word discovery, the pivot classifier**, and **the precision-recall histogram** are implemented in thie repo. 
-
-The pivot analysis discoverys words strongly influence sentence classification, and show which words to modify in order to change the style of the sentence. 
+In this paper, we discuss the observation that in many text style transfer datasets and models, only a few style-related words are changed during the transfer process, while the higher-level sentence structures remain unchanged. E.g. to change a negetive sentence "The food is awful" in Yelp to positive, one only need to substitute the word "awful" -> "The food is awesome".
 
 <img src="data/example.png" alt="example"
-	title="Example" width="350"  />
+	title="Example" width="400"  />
+
+How can quantitatively identify, measure, and visualize the influence of these words? We propose three algorithms for this purpose: the **pivot word discovery, the pivot classifier**, and **the precision-recall histogram** algorithms. They are all implemented in this repo.
+
+We gather 8 major style-transfer dataset, standarlize them (so in your future work you could use them from this repo with minimal modification :), and analyze the pivot effects in these dataset. All analytical results from the paper can be reproduced and find out in the `outputs/` folder. 
+
 
 ## Download the data 
 The datasets used in the paper are:
