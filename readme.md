@@ -6,7 +6,8 @@ The **pivot word discovery, the pivot classifier**, and **the precision-recall h
 
 The pivot analysis discoverys words strongly influence sentence classification, and show which words to modify in order to change the style of the sentence. 
 
-![](data/example.png = 250x)
+<img src="data/example.png" alt="example"
+	title="Example" width="150"  />
 
 ## Download the data 
 The datasets used in the paper are:
