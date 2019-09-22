@@ -29,6 +29,7 @@ Other data are from the corresponding papers, with renaming and re-organization 
 ## Run it 
 
 ```bash
+mkdir outputs
 python main.py --dataset=yelp --pivot_thres_cnt=1 --prec_thres=0.5 --recl_thres=0.0
 ```
 
