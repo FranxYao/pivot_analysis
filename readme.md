@@ -25,7 +25,7 @@ The datasets used in the paper are:
 
 All organized as: train.0, train.1/ dev.0, dev.1/ test.0, test.1. Download from [here](https://drive.google.com/open?id=1ZtDIfHKc_GhNElRwHdDvk7tiCkv5_wJa)
 
-But note that the caption dataset does not have the right test data (because they made a mistake [in their release](https://github.com/lijuncen/Sentiment-and-Style-Transfer), the positive and negative sentences in the test seet are the same). 
+But note that the caption dataset does not have the right test data (because they made a mistake [in their release](https://github.com/lijuncen/Sentiment-and-Style-Transfer), the positive and negative sentences in the test set are the same). 
 
 Other data are from the corresponding papers, with renaming and re-organization to fit our code. 
 
