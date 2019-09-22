@@ -6,7 +6,7 @@ The **pivot word discovery, the pivot classifier**, and **the precision-recall h
 
 The pivot analysis discoverys words strongly influence sentence classification, and show which words to modify in order to change the style of the sentence. 
 
-![](data/example.png =250x250)
+![](data/example.png = 250x)
 
 ## Download the data 
 The datasets used in the paper are:
@@ -19,7 +19,7 @@ The datasets used in the paper are:
 * reddit 
 * twitter
 
-All organized as: train.0, train.1/ dev.0, dev.1/ test.0, test.1
+All organized as: train.0, train.1/ dev.0, dev.1/ test.0, test.1. Download from [here](https://drive.google.com/open?id=1ZtDIfHKc_GhNElRwHdDvk7tiCkv5_wJa)
 
 But note that the caption dataset does not have the right test data (because they made a mistake [in their release](https://github.com/lijuncen/Sentiment-and-Style-Transfer), the positive and negative sentences in the test seet are the same). 
 
