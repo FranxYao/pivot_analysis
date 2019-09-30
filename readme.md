@@ -1,6 +1,6 @@
 # The Pivot Analysis
 
-The implementation of paper Yao fu, Hao Zhou, Jiaze Chen, and Lei Li, _Rethinking Text Attribute Transfer: A Lexical Analysis_. INLG 2019 (oral). [pdf](data/pivot_analysis_camera_ready.pdf) 
+The implementation of paper Yao fu, Hao Zhou, Jiaze Chen, and Lei Li, _Rethinking Text Attribute Transfer: A Lexical Analysis_. INLG 2019 (oral). [link](https://arxiv.org/abs/1909.12335) 
 
 In this paper, we discuss the observation that in many text style transfer datasets and models, only a few style-related words are changed during the transfer process, while the higher-level sentence structures remain unchanged. E.g. to change a negetive sentence "The food is awful" in Yelp to positive, one only need to substitute the word "awful" -> "The food is awesome".
 
